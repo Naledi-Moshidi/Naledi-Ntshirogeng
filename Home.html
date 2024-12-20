@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.8/angular.js"></script>        
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css"/>        
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>        
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
+        <!--Boxicons-->
+        <link href='https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css' rel='stylesheet'>
+
+        <link rel="stylesheet" href="Home.css">
+
+        <title></title>
+    </head>
+    <body>
+        <!--Header-->
+        <header class="l-header">
+            <!--Navigation starts here-->
+            <div class="nav bd-grid">
+                <div>
+                    <a href="Home.html" class="nav__logo">RUNNER</a>
+                </div>
+
+
+                <div class="nav__menu" id="nav-menu">
+                    <ul class="nav__list">
+                        <li class="nav__item"><a href="#home" class="nav__link active">HOME</a></li>
+                        <li class="nav__item"><a href="Login.html" class="nav__link">LOGIN</a></li>
+                        <li class="nav__item"><a href="AdminLogin.html" class="nav__link">EMPLOYEE</a></li>
+                    </ul>
+                </div>
+
+                <!--Navigation Icons-->
+                <div>
+                    <button class="nav__btns"><i class='bx bx-heart nav__wish'></i></button>
+                    <button class="nav__btns"><i class='bx bx-cart nav__cart'></i></button>
+                    <button class="nav__btns"><i class='bx bx-user nav__user'></i></button>
+                    <button class="nav__btns"><i class='bx bx-menu-alt-right nav__toggle' id="nav-toggle"></i></button>
+                </div>
+            </div>
+        </header>
+
+        <main class="l-main">
+            <!--Home Section-->
+            <section class="home" id="home">
+                <div class="home__container bd-grid">
+                    <div class="home__data">
+                        <h1 class="home__title">LATEST<br><span>TRENDS</span></h1>
+                        <!--Button-->
+                        <a href="#shop" class="button">GO SHOPPING</a>
+                    </div>
+
+
+                    <img src="Media/Thumbnail-712821W2ZB24090_L.jpg" alt="" class="home__img">
+                </div>
+            </section>
+
+            <!--Featured products section-->
+            <section class="shop section" id="shop">
+                <h2 class="section-title">FEATURED PRODUCTS</h2>
+                
+                <a href="#" class="section-all">View All</a>
+
+                <!--Featured products content starts here-->
+                <div class="featured__container bd-grid">
+                    <!--Product card-->
+                    <div class="featured__product">
+                        <div class="featured__box">
+                            <div class="featured__new">NEW</div>
+                            <img src="img/feature1.png" alt="" class="featured__img">
+                        </div>
+
+                        <div class="featured__data">
+                            <h3 class="featured__name">Headphone</h3>
+                            <span class="featured__price">R299</span>
+                        </div>
+                    </div>
+
+                    <!--Product Card-->
+                    <div class="featured__product">
+                        <div class="featured__box">
+                            <div class="featured__new">NEW</div>
+                            <img src="img/feature1.png" alt="" class="featured__img">
+                        </div>
+
+                        <div class="featured__data">
+                            <h3 class="featured__name">Speaker</h3>
+                            <span class="featured__price">R899</span>
+                        </div>
+                    </div>
+
+                    <!--Product Card-->
+                    <div class="featured__product">
+                        <div class="featured__box">
+                            <div class="featured__new">NEW</div>
+                            <img src="img/feature1.png" alt="" class="featured__img">
+                        </div>
+
+                        <div class="featured__data">
+                            <h3 class="featured__name">Apple Air Pods</h3>
+                            <span class="featured__price">R1599</span>
+                        </div>
+                    </div>
+
+                      <!--Product Card-->
+                    <div class="featured__product">
+                        <div class="featured__box">
+                            <div class="featured__new">NEW</div>
+                            <img src="img/feature1.png" alt="" class="featured__img">
+                        </div>
+
+                        <div class="featured__data">
+                            <h3 class="featured__name">Smartwatch F9 Silver</h3>
+                            <span class="featured__price">R699</span>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!--Offer Section-->
+            <section class="offer section">
+                <div class="offer__bg">
+                    <div class="offer__data">
+                        <h2 class="offer__title">Special Offer</h2>
+                        <p class="offer__description">Special offer discount for everyone this week only</p>
+
+                        <a href="#" class="button">SHOP NOW</a>
+                    </div>
+                </div>
+            </section>
+
+           <!--New Arrivals section starts here-->
+            <section class="featured section" id="new">
+                <h2 class="section-title">NEW ARRIVALS</h2>
+                <a href="#" class="section-all">View All</a>
+
+                 <!--New Arrivals content starts here-->
+                <div class="new__container bd-grid">
+                    <!--Product Card-->
+                    <div class="new__box">
+                        <img src="img/new1.png" alt="" class="new__img">
+
+                        <div class="new__link">
+                            <a href="" class="button">VIEW PRODUCT</a>
+                        </div>
+                    </div>
+
+                   <!--Product Card-->
+                    <div class="new__box">
+                        <img src="img/new1.png" alt="" class="new__img">
+
+                        <div class="new__link">
+                            <a href="" class="button">VIEW PRODUCT</a>
+                        </div>
+                    </div>
+
+                    <!--Product Card-->
+                    <div class="new__box">
+                        <img src="img/new1.png" alt="" class="new__img">
+
+                        <div class="new__link">
+                            <a href="" class="button">VIEW PRODUCT</a>
+                        </div>
+                    </div>
+
+            </section>
+
+
+            <!--Sponsors section-->
+            <section class="sponsors section">
+                <!--Sponsor content starts here-->
+                <div class="sponsors__container bd-grid">
+                    <div class="sponsors__logo">
+                        <img src="assets/img/logo1.png" alt="">
+                    </div>
+
+                    <div class="sponsors__logo">
+                        <img src="assets/img/logo1.png" alt="">
+                    </div>
+
+                    <div class="sponsors__logo">
+                        <img src="assets/img/logo1.png" alt="">
+                    </div>
+
+                    <div class="sponsors__logo">
+                        <img src="assets/img/logo1.png" alt="">
+                    </div>
+                </div>
+            </section>
+        </main>
+
+        <!--Footer-->
+        <footer class="footer section">
+            <div class="footer__container bd-grid">
+                <div class="footer__box">
+                    <h3 class="footer__title">RUNNER</h3>
+                    <p class="footer__description">An Online store fit for all your needs</p>
+                </div>
+
+                <!--Footer Section-->
+                <div class="footer__box">
+                    <h3 class="footer__title">EXPLORE</h3>
+                    <!-- Navigation Links-->
+                    <ul>
+                        <li><a href="#" class="footer__link">Home</a></li>
+                        <li><a href="Login.html" class="footer__link">Login</a></li>
+                        <li><a href="AdminLogin.html" class="footer__link">Employee</a></li>
+                    </ul>
+                </div>
+
+                 <!--Footer Section-->
+                <div class="footer__box">
+                    <h3 class="footer__title">OUR SERVICES</h3>
+                    <!--Additional Links-->
+                    <ul>
+                        <li><a href="#" class="footer__link">Pricing</a></li>
+                        <li><a href="#" class="footer__link">Free Shipping</a></li>
+                        <li><a href="#" class="footer__link">Gift Cards</a></li>
+                    </ul>
+                </div>
+
+               <!--Footer Section-->
+                <div class="footer__box">
+                    <h3 class="footer__title">FOLLOW</h3>
+                    <a href="#" class="footer__social"><i class='bx bxl-facebook-square'></i></a>
+                    <a href="#" class="footer__social"><i class='bx bxl-instagram-alt'></i></a>
+                    <a href="#" class="footer__social"><i class='bx bxl-twitter'></i></a>
+                </div>
+            </div>
+
+            <!--Copyright Section-->
+            <p class="footer__copy">&#169; 2022 copyright | all rights reserved</p>
+        </footer>
+    </body>
+</html>

@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.8/angular.js"></script>        
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css"/>        
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>        
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <title>Admin Todo</title>
+    <link rel="stylesheet" href="Astyle.css">
+    <link rel="stylesheet" href="Home.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
+</head>
+<body>
+  <!--Header-->
+  <header class="l-header">
+    <!--Navigation starts here-->
+    <div class="nav bd-grid">
+        <div>
+          <a href="Home.html" class="nav__logo">RUNNER</a>
+        </div>
+
+
+        <div class="nav__menu" id="nav-menu">
+            <ul class="nav__list">
+                <li class="nav__item"><a href="Home.html" class="nav__link">HOME</a></li>
+                <li class="nav__item"><a href="Login.html" class="nav__link">LOGIN</a></li>
+                <li class="nav__item"><a href="#AdminLogin" class="nav__link active">EMPLOYEE</a></li>
+            </ul>
+        </div>
+
+        <!--Navigation Icons-->
+        <div>
+            <button class="nav__btns"><i class='bx bx-heart nav__wish'></i></button>
+            <button class="nav__btns"><i class='bx bx-cart nav__cart'></i></button>
+            <button class="nav__btns"><i class='bx bx-user nav__user'></i></button>
+            <button class="nav__btns"><i class='bx bx-menu-alt-right nav__toggle' id="nav-toggle"></i></button>
+        </div>
+    </div>
+</header>
+  <div class="wrapper">
+    <header>Employee</header>
+    <div class="inputField">
+      <input type="text" placeholder="Add your new todo">
+      <button><i class="fas fa-plus"></i></button>
+    </div>
+    <ul class="todoList">
+      <!-- data are comes from local storage -->
+    </ul>
+    <div class="footer">
+      <span>You have <span class="pendingTasks"></span> pending tasks</span>
+      <button>Clear All</button>
+    </div>
+  </div>
+
+  <script src="Ascript.js"></script>
+
+</body>
+</html>
